@@ -24,12 +24,9 @@ class _DrawerPageState extends State<DrawerPage> {
         child: new ListView(
           //padding: EdgeInsets.zero,
           children: <Widget>[
-            /*new DrawerHeader(
-              child: new Text("Intelliwiz"),
-            ),*/
             new ListTile(
               title: new Text(
-                "Intelliwiz",
+                "Sample App",
                 style: new TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
